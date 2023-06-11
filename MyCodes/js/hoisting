@@ -1,0 +1,68 @@
+ // Hoisting in js
+
+ // Hoisting is a process where js intepreter move the fn , variable or class decleration over the top of the scope that is said to be hoisting.
+
+ // in hoisting we can access any veriable or fn before it get declared.
+
+
+ console.log(x);
+
+ var x; // output is "undefined" coz var is hoisted with default value ="Undefined".
+
+
+ // Unlike let and const
+
+ //Why coz it lies inside TDZ (Temporial dead zone) 
+
+ // what is (Temporial dead zone) ????////////////////
+
+// So, it is a place where you can not access any variable or fn before its decleration if it lies inside the tdz it gives reference error.
+
+ //except var coz it hoisted with default value 'undefied'.
+
+ // see  this example below
+
+ console.log(y);
+
+ let y; // output is Reference error coz it lies inside tdz (Temporial dead zone) 
+
+///////////////////////////////////////////////////////////
+
+ // see the region of tdz below.
+
+ // tdz started from now because iske upar koi decleration ni hai.
+ console.log(z);
+
+ let z; // tdz ends coz jaise hi variable declare hua tdz khatam.
+
+
+
+
+///////////// Hoisting in functions////////////////////////
+
+
+myname();
+
+ function myname()
+ {
+   console.log("AMil Ali");
+}
+
+// you will get the output as Amil ALi coz it hoisted
+
+
+// but what if it is a arrow or anonymus fn
+
+myname =() =>
+  {
+    console.log('Amil Ali');
+  }
+// it gives  reference error
+
+// same as anonymus function
+
+var myname = function()
+  {
+    console.log('Amil Ali');
+  }
+// it also gives reference error
