@@ -1,42 +1,37 @@
-function getMinMax(arr, n)
-{
-    minmax = new Array();
-    var i;
-    var min;
-    var max;
+// brute force approach
 
-    /If there is only one element then return it as min and max both/
-    if (n == 1) {
-        minmax.max = arr[0];
-        minmax.min = arr[0];
-        return minmax;
-    }
+// function sec_largest(arr){
+//     let max = Number.MIN_VALUE;
+//     let sec_max = Number.MIN_VALUE;
 
-    /* If there are more than one elements, then initialize min
-and max*/
-    if (arr[0] > arr[1]) {
-        minmax.max = arr[0];
-        minmax.min = arr[1];
-    } else {
-        minmax.max = arr[1];
-        minmax.min = arr[0];
-    }
+//     for(let i in arr)
+//     {
+//         if(arr[i]>max)
+//         {
+//             max= arr[i];
+//         }
+//     }
+//     for(let j in arr)
+//     {
+//         if(arr[j]!=max && arr[j]>sec_max)
+//             {
+//                 sec_max = arr[j];
+//             }
+//     }
+//     return sec_max;
+// }
 
-    for (i = 2; i < n; i++) {
-        if (arr[i] > minmax.max) {
-            minmax.max = arr[i];
-        } else if (arr[i] < minmax.min) {
-            minmax.min = arr[i];
-        }
-    }
+// optimize approach
 
-    return minmax;
-}
+// sec_largest = (arr) =>
+// {
+//         arr = [...new Set(arr)].sort();
+//         return arr[arr.length-2];
+// }
 
-/* Driver program to test above function */
 
-    var arr = [1000, 11, 445, 1, 330, 3000];
-    var arr_size = 6;
-    minmax = getMinMax(arr, arr_size);
-    document.write("\nMinimum element is " ,minmax.min +"<br>");
-    document.write("\nMaximum element is " , minmax.max);
+
+
+let arr = [1,2,3,4,5,6,7,7];
+
+console.log(sec_largest(arr));
