@@ -6,7 +6,8 @@ twosum = (arr,k)=>{
             if(mp.hasOwnProperty(rem)) // you can also use "in"
             // like if(rem in arr)
             {
-                return [mp[rem], i];
+                return [mp[rem], i]; // or if you want to return value instead of index then->
+                // write : return [arr[mp[rem]], arr[i]];
             }
             mp[arr[i]] =i;
         }
@@ -27,6 +28,6 @@ twosum = (arr,k)=>{
 //   };
   
 
-let arr  = [1,2,3,4,5,6];
+let arr  = [1,2,3,44,5,6];
 
 console.log("index :",twosum(arr,11));
