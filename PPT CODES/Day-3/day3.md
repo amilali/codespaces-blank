@@ -9,6 +9,8 @@
 
 **Notes:
 **[Live Session Notes.pdf](https://github.com/amilali/codespaces-blank/files/11844766/Live.Session.Notes.pdf)
+or
+[Notion link](https://file.notion.so/f/s/aee45900-fcd5-428d-9f27-d7a186e38673/Live_Session_Notes.pdf?id=e51aeba6-be6e-4e58-ba48-9ccdffa863c3&table=block&spaceId=6fae2e0f-dedc-48e9-bc59-af2654c78209&expirationTimestamp=1687587915239&signature=WDFROF4GXj9o3o8bXjfzxG8hFH5s2EyOQ3FjNDu-1v0&downloadName=Live+Session+Notes.pdf "Notion link")
 
 
 **Codes:**
