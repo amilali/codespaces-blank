@@ -8,3 +8,4 @@
 
 [Ques 4- Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/ "Ques 4- Longest Substring Without Repeating Characters")
 
+***Note: Kadane's Algorithm in the PPT, but it is a very important algorithm. It is based on DP (Dynamic Programming) basically DP make sure that no repetitative iteration is not going to happen***
