@@ -1,4 +1,14 @@
 # # Assignment 2
+
+**Solution-2**
+```javascript
+var distributeCandies = function(candyType) {
+    let numOfTypes = [...new Set(candyType)].length
+    let numToEat =  candyType.length / 2
+    return numOfTypes >= numToEat ? numToEat: numOfTypes 
+};
+```
+
 **Solution-3**
 ```javascript
 var arrayPairSum = nums => {
@@ -10,14 +20,6 @@ var arrayPairSum = nums => {
     }
 
     return sum
-};
-```
-**Solution-2**
-```javascript
-var distributeCandies = function(candyType) {
-    let numOfTypes = [...new Set(candyType)].length
-    let numToEat =  candyType.length / 2
-    return numOfTypes >= numToEat ? numToEat: numOfTypes 
 };
 ```
 
