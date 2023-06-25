@@ -1,4 +1,4 @@
-// brute force
+// brute force  O(n^2)
 
 var firstUniqChar = function(s) {
     for(let i in s)
@@ -19,7 +19,7 @@ var firstUniqChar = function(s) {
     return -1;
 };
 
-// optimise
+// optimise O(n)
 
 var firstUniqChar = function(str) {
     let mp ={};
