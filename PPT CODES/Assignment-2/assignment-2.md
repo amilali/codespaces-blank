@@ -1,4 +1,17 @@
 # # Assignment 2
+**Solution-1**
+```javascript
+var arrayPairSum = nums => {
+    nums.sort((a, b) => a - b);
+    let sum = 0;
+
+    for (let i = 0; i < nums.length; i += 2) {
+        sum += nums[i]
+    }
+
+    return sum
+};
+```
 
 **Solution-2**
 ```javascript
@@ -20,6 +33,21 @@ var arrayPairSum = nums => {
     }
 
     return sum
+};
+```
+
+**Solution-4**
+
+```javascript
+var canPlaceFlowers = function(flowerbed, n) {
+    for (let i = 0; i < flowerbed.length; i++) {
+        if (flowerbed[i] == 0 &&  (i == 0 || flowerbed[i-1] == 0) && (i == flowerbed.length- 1 ||flowerbed[i+1] == 0)) {
+            flowerbed[i] = 1
+            n--
+            i++
+        }
+    }
+    return n <= 0
 };
 ```
 
