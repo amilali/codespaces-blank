@@ -19,7 +19,7 @@ var firstUniqChar = function(s) {
     return -1;
 };
 
-// optimise O(n)
+// optimise O(n) by using map in js
 
 var firstUniqChar = function(str) {
     let mp ={};
