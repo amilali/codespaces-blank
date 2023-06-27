@@ -16,3 +16,15 @@ Data about the data
 Use  of Semantics is it add meaning to tags as well as  Accessibility(i.e in screen reader if you use <strong> instead of  <b> the screen reader emphasize that word,)
 
 And good for developer to understand. 
+
+
+**HTML5 Tags**
+
+```
+<header></header>
+<nav></nav>
+<section></section>
+<article></article>
+<aside></aside>
+<footer></footer>
+```
