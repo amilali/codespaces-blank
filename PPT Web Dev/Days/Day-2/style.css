@@ -20,6 +20,9 @@ body{
     width: 200px;
     height: 50px;
     background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .box3{
     width: 200px;
@@ -27,13 +30,12 @@ body{
     background-color: #06ab00;
 }
 .ring{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-color: rgb(42, 22, 255);
     border-radius: 50px;
     border-width: 3px;
     border-style: solid;
-    position: relative;
     background-color: #ffffff;
     top: 0;
 }
