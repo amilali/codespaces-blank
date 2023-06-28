@@ -9,16 +9,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #000000;
 }
 .box1{
-    background-color: #ff0000;
+    width: 200px;
+    height: 50px;
+    background-color: #ff8c00;
 }
 .box2{
     background-color: #ff0000;
 }
 .box3{
-    background-color: #ff0000;
-}
-.box4{
     background-color: #ff0000;
 }
