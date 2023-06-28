@@ -28,3 +28,11 @@ And good for developer to understand.
 <aside></aside>
 <footer></footer>
 ```
+    XML: Extensible Markup Language
+    HTML: Hyper Text Markup Language
+
+    USE OF XML:
+    1. Data Transfer
+    2. Data Storage
+    3. Data Manipulation
+    4. Data Validation
