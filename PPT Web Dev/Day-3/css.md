@@ -1,3 +1,4 @@
+# CSS baiscs
 **How to make css variables**
 
 ```css
@@ -13,3 +14,4 @@ body {
 }
 
 ```
+
