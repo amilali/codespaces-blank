@@ -2,7 +2,7 @@
 
 ```css
 
-:root {
+:root {  // use root selector to make variables
     --main-bg-color: #fff;   //here we are making a variable
     --main-text-color: #000;
 }
