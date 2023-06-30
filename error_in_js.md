@@ -31,3 +31,6 @@ console.log(arr.split(""));
 // here we use string method .split() in array so it through type error like this:
 // Uncaught TypeError: arr.split is not a functionat <anonymous>:1:40
 ```
+
+### Funfact 
+**NaN is considered as Number in JS**
