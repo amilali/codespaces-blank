@@ -1,0 +1,1 @@
+# This is my notes for javascript and some new facts about js.
