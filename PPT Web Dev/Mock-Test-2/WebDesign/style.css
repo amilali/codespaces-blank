@@ -20,6 +20,7 @@ header{
 }
 nav{
     width: 100vw;
+    height: 15vh;
     background-color: #ffffff;
     border-bottom: 1px solid #000000;
     display: flex;
@@ -64,8 +65,50 @@ nav a {
   }
 
 nav button{
-    padding: 18px;
+    padding: 10px;
     background-color:#ffe01b;
     border-radius: 25px;
-    font-weight: 900;
+    font-weight: 700;
+}
+.tel{
+    position: relative;
+    top: 10px;
+}
+.search{
+    position: relative;
+    top: 10px;
+}
+#login{
+    background-color: #fff;
+}
+button{
+    transition:  0.2s;
+    transition-timing-function:ease;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px #000000;
+    transform: translate(-3px, -3px);
+}
+.logo{
+    mix-blend-mode:darken;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid rgb(217, 255, 0); */
+    overflow: hidden;
 }
