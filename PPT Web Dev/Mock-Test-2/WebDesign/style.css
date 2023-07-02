@@ -111,10 +111,11 @@ main{
     height: 100%;
     /* border: 2px solid rgb(217, 255, 0); */
     overflow: hidden;
+    position: relative;
 }
 .container
 {
-    position: relative;
+    position: absolute;
     height: 70vh;
     width: 100%;
     display: flex;
