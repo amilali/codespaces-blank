@@ -117,12 +117,12 @@ main{
 {
     position: absolute;
     height: 70vh;
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items:start;
     justify-content:center;
-    left:100px;
+    margin-left: 15%;
 }
 .container button{
     padding: 10px;
