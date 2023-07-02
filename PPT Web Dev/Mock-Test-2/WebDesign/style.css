@@ -26,6 +26,7 @@ nav{
     display: flex;
     align-items: center;
     font-weight:500;
+    overflow: hidden;
 }
 .nav_one{
     width:33%;
@@ -98,7 +99,7 @@ button:hover{
 main{
     display: flex;
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     overflow: hidden;
 }
 .left{
@@ -124,7 +125,8 @@ main{
     justify-content:center;
     margin-left: 15%;
 }
-.container button{
+.container button
+{
     padding: 10px;
     background-color:#ffe01b;
     border-radius: 25px;
