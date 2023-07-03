@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    z-index: 2;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.Static{
+    position:static;
+    width: 200px;
+    height: 200px;
+    background-color: #ff0000;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:60%;
+}
+.Sticky{
+    position:sticky;
+    width: 200px;
+    height: 200px;
+    background-color: #ffa200;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top:60%;
+}
+.Fixed{
+    /* position: fixed; */
+    width: 200px;
+    height: 200px;
+    background-color: #84ff00;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Relative{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #00ddff;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top:30%;
+}
+.Absolute{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #ae00ff;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top:30%;
+}
+h1{
+    text-align:center;
+}
+hr{
+    background-color: #000000;
+}
+.line{
+    width: 100vw;
+    height: 21px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    color: white;
+    text-align: end;
+    text-align: ;
+}
