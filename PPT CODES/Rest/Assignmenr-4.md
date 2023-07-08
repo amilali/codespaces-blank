@@ -65,7 +65,9 @@ var arrayPairSum = nums => {
 
     return sum
 };
-};```
+```
+
+
 **Solution 5**
 ```javascript
 function arrangeCoins(n: number): number {
