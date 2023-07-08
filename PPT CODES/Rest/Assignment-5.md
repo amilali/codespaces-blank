@@ -42,11 +42,7 @@ var sortedSquares = function(nums) {
 ```
 **Solution 4**
 ```javascript
-/**
- * @param {number[]} nums1
- * @param {number[]} nums2
- * @return {number[][]}
- */
+
 var findDifference = function(nums1, nums2) {
     let result = [[],[]]
     nums1 = [...new Set(nums1)]
@@ -66,12 +62,7 @@ var findDifference = function(nums1, nums2) {
 ```
 **Solution 5**
 ```javascript
-/**
- * @param {number[]} arr1
- * @param {number[]} arr2
- * @param {number} d
- * @return {number}
- */
+
 var findTheDistanceValue = function(arr1, arr2, d) {
     const arr2Sorted = arr2.sort((a, b) => a - b);
     let dist = 0;
@@ -111,10 +102,7 @@ function isDistanceValid(number, dist, array) {
 **Solution 6**
 
 ```javascript
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
+
 var findDuplicates = function(nums) {
     const Obj = {};
     return nums.filter(num => {
@@ -125,10 +113,7 @@ var findDuplicates = function(nums) {
 ```
 **Solution 7**
 ```javascript
-/**
- * @param {number[]} nums
- * @return {number}
- */
+
 var findMin = function(nums) {
     let low = 0, high = nums.length - 1;
     while(low <= high){

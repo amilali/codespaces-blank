@@ -107,7 +107,6 @@ var maxCount = function(m, n, ops) {
     }
     return min[0]*min[1];
 };
-};
 ```
 
 **Solution 8**
