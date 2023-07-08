@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/main/Assignment_01(HTML%2BCSS)/assets/pexels-maxyne-barcel-10402282%201.png");
+    background-size: cover;
+    -webkit-backdrop-filter: brightness(50%);
+    backdrop-filter: brightness(50%);
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.navigation{
+    width: 100%;
+    max-height: 20%;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.navcont1{
+    width:33%;
+    height:33%;
+    padding: 5px;
+    margin: 15px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+.navcont2{
+    width:33%;
+    height:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navcont2 ul{
+    display: flex;
+    list-style-type: none;
+}
+.navcont2 li{
+    padding: 15px;
+    color: #fdba11;
+}
+.navcont3{
+    width:33%;
+    height:33%; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 15px;
+}
+.navcont3 button{
+    padding: 10px 25px;
+    background-color: #FF515F;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+
+.main{
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.head1{
+    font-family: 'Unbounded', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: #fdba11;
+}
+.head2{
+    margin: 15px;
+}
+.head2 button{
+    padding: 10px 25px;
+    background-color: #FF515F;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
+.img1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
