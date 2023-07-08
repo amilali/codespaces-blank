@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2fffff;
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width: 1440px) {
+    body{
+        background-color: #dcff2f;
+    }
+}
+
+@media (max-width: 1024px) {
+    body{
+        background-color: #0000ff;
+    }
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: #ff2f2f;
+    } 
+}
+
+@media (max-width: 425px) {
+    body{
+        background-color: #2fffff;
+    }
+}
