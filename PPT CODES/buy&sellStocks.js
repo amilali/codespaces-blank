@@ -46,6 +46,5 @@ buy_sell =(arr)=>{
     return max_profit;
 } //  O(n)
 
-
 let prices = [7,1,5,3,6,4]
 console.log(buy_sell(prices));
