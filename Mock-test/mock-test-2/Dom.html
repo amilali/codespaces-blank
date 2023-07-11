@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #box {
+      width: 300px;
+      height: 300px;
+      background-color: red;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="box" onclick="changeColorAndSize()"></div>
+
+  <script>
+    function changeColorAndSize() {
+      var box = document.getElementById("box");
+
+      if (box.style.backgroundColor === "red") {
+        box.style.backgroundColor = "yellow";
+        box.style.width = "600px";
+        box.style.height = "600px";
+      } else {
+        box.style.backgroundColor = "red";
+        box.style.width = "300px";
+        box.style.height = "300px";
+      }
+    }
+  </script>
+</body>
+</html>
