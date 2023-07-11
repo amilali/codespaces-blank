@@ -1,2 +1,2 @@
-# PwSkills Assignment :tw-1f3c1:
+# PwSkills Assignment
 
