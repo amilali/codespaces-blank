@@ -31,7 +31,10 @@
 
         function addcontent()
         {
-            h1.textContent = input.value;
+            if(input.value !=="")
+                {
+                    h1.textContent = input.value;
+                }
         }
 
         // Another Method in place of onclick attribute
