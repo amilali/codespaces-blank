@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Box</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="conatiner">
+        <h1 id="h1">Type something!</h1>
+        <input type="text" id="input">
+        <input type="submit" value="Submit" onclick="addcontent()">
+    </div>
+
+    <script>
+        const input = document.getElementById("input");
+        const h1 = document.getElementById("h1");
+
+        function addcontent()
+        {
+            h1.textContent = input.value;
+        }
+
+        // Another Method in place of onclick attribute
+        // const submitBtn = document.getElementById("submitBtn");
+        //     submitBtn.addEventListener("click", function() {
+        //         h1.textContent = input.value;
+        //     });
+    </script>
+</body>
+</html>
