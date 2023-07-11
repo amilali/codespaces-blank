@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Responsive Layout</title>
+  <style>
+    /* Default styles for all devices */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar */
+    nav {
+      background-color: #333; /* Dark gray */
+      color: #fff; /* White */
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Hero section */
+    .hero {
+      background-color: #f2f2f2; /* Light gray */
+      padding: 50px;
+      text-align: center;;
+    }
+
+    /* Side sections */
+    .section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Desktop layout */
+    @media (min-width: 992px) {
+      .section {
+        background-color: #FFC0CB; /* Light pink */
+        width: 30%;
+        float: left;
+      }
+      .hero{
+        height: 150px;
+      }
+    }
+
+    /* Tablet layout */
+    @media (max-width: 991px) and (min-width: 576px) {
+      .section {
+        background-color: #87CEFA; /* Light sky blue */
+        width: 50%;
+        float: left;
+      }
+    }
+
+    /* Mobile layout */
+    @media (max-width: 575px) {
+      .section {
+        background-color: #98FB98; /* Pale green */
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h1>Navigation Bar</h1>
+  </nav>
+
+  <div class="hero">
+    <h1>Hero Section</h1>
+  </div>
+
+  <div class="section">
+    <h2>Side Section 1</h2>
+  </div>
+
+  <div class="section">
+    <h2>Side Section 2</h2>
+  </div>
+
+  <div class="section">
+    <h2>Side Section 3</h2>
+  </div>
+</body>
+</html>
