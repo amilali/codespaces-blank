@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    
+    h1 {
+      margin-bottom: 20px;
+    }
+    
+    audio {
+      margin: 20px;
+    }
+    
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Music Player</h1>
+  
+  <audio id="music" controls>
+    <source src="path/to/your/music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  
+  <div>
+    <button onclick="play()">Play</button>
+    <button onclick="pause()">Pause</button>
+    <button onclick="stop()">Stop</button>
+  </div>
+  
+  <script>
+    var music = document.getElementById("music");
+    
+    function play() {
+      music.play();
+    }
+    
+    function pause() {
+      music.pause();
+    }
+    
+    function stop() {
+      music.pause();
+      music.currentTime = 0;
+    }
+  </script>
+</body>
+</html>
