@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>/* Navbar styles */
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+    
+    .logo {
+      font-weight: bold;
+      font-size: 20px;
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .menu {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      margin-left: 10px;
+    }
+    
+    .menu li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    /* Hamburger menu styles */
+    .menu-toggle {
+      display: none;
+      cursor: pointer;
+    }
+    
+    .menu-toggle span {
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin-bottom: 5px;
+    }
+    
+    /* Media queries */
+    @media (max-width: 768px) {
+      .menu {
+        display: none;
+      }
+    
+      .menu-toggle {
+        display: block;
+      }
+    
+      .menu-toggle:checked ~ .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 10px;
+      }
+    
+      .menu-toggle:checked ~ .menu li {
+        margin-left: 0;
+        margin-bottom: 10px;
+      }
+    }
+    /* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-left: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hamburger menu styles */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu-toggle:checked ~ .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    padding: 10px;
+  }
+
+  .menu-toggle:checked ~ .menu li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+</style>
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <a href="#" class="logo">Logo</a>
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<script>// Handle menu toggle click
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    
+    menuToggle.addEventListener('click', function() {
+      menu.classList.toggle('active');
+    });
+    </script>
+</body>
+</html>

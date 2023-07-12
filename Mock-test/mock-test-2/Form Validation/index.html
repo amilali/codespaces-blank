@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Form Validation</h1>
+  <form id="myForm">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="18" max="99" required>
+    </div>
+    <div>
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+    <div>
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="color" required>
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
